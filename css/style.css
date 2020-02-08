@@ -284,6 +284,7 @@ body {
         background-color: #fff;
         transition: transform 0.2s;
         margin-top: -7px;
+        z-index: 2;
     }
     .menu-button:after {
         content: '';
@@ -296,6 +297,7 @@ body {
         background-color: #fff;
         transition: transform 0.2s;
         margin-top: 7px;
+        z-index: 2;
     }
     .menu-button-active {
         height: 0;
@@ -317,6 +319,7 @@ body {
         background-color: #9D2929;
         width: 250px;
         padding-bottom: 40px;
+        z-index: 2;
     }
     .header-active {
         display: flex;
@@ -350,6 +353,7 @@ body {
     }
     .main-title {
         font-size: 56px;
+        z-index: 1;
     }
     .series {
         width: 80%;
